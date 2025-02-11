@@ -1,0 +1,75 @@
+/* Navbar Hover Effect */
+.nav-hover {
+    color: #333;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-hover:hover {
+    color: #007bff; /* Blue hover effect */
+}
+
+/* Navbar */
+.navbar {
+    padding: 12px 0;
+}
+
+/* Center Menu Items */
+.navbar-nav {
+    gap: 20px;
+}
+
+/* Get Started Button */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/*.container {*/
+/*    width: 80%;*/
+/*}*/
+
+/* Style dropdown */
+.dropdown-menu {
+    border: none;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Dropdown Hover Effect */
+.dropdown-item {
+    transition: background 0.3s ease-in-out;
+}
+
+.dropdown-item:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.bg-custom {
+    background-color: #F3F9FF !important;
+}
+
+.accordion-button {
+    border: none;
+    box-shadow: none;
+}
+
+#accordionFlushExample .accordion-item {
+    border: none;
+}
+
+#accordionFlushExample .accordion-button {
+    border: none;
+    box-shadow: none;
+}
+
